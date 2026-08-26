@@ -2914,6 +2914,20 @@ tbody tr:hover {
   color: #62695f;
   font-size: 7px;
 }
+.footer-credits {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  letter-spacing: 0.04em;
+}
+.footer-credits a {
+  color: var(--lime) !important;
+  font-weight: 800;
+}
+.footer-credits a:hover {
+  color: white !important;
+}
 /* login */
 .login-page {
   min-height: 100vh;
@@ -3880,6 +3894,10 @@ tbody tr:hover {
   }
 }
 @media (max-width: 540px) {
+  .footer-credits {
+    align-items: flex-start;
+    flex-direction: column;
+  }
   .public-members { padding: 80px 20px; }
   .public-member-grid article > div { height: 230px; }
   .photo-upload { align-items: flex-start; flex-direction: column; }

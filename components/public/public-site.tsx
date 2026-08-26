@@ -464,8 +464,18 @@ export function PublicSite({
             <Mail />
           </a>
         </div>
-        <small>
-          © 2026 Golden Gym & Fitness. Built for stronger tomorrows.
+        <small className="footer-credits">
+          <span>© 2026 Golden Gym & Fitness. Built for stronger tomorrows.</span>
+          <span>
+            Designed &amp; Developed by{" "}
+            <a
+              href="https://www.sufiyanakhtar.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Sufiyan Akhtar
+            </a>
+          </span>
         </small>
       </footer>
     </main>
