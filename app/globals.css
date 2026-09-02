@@ -4171,3 +4171,6 @@ tbody tr:hover {
     border: 0;
   }
 }
+.public-site .public-nav,.public-site footer{--nav:var(--gym-brand-dark)}
+.public-logo>span{position:relative;overflow:hidden}.contact-points a{display:flex;align-items:center;gap:10px;color:inherit}.class-strips article>a{display:grid;place-items:center;width:42px;height:42px;border:1px solid #d9ddd4}.demo-loading{min-height:100vh;background:#111;display:grid;align-content:center;gap:18px;padding:10vw}.demo-loading div{height:24px;max-width:720px;background:linear-gradient(90deg,#222,#333,#222);background-size:200% 100%;animation:demo-pulse 1.2s infinite}.demo-loading div:first-child{height:80px}.demo-loading div:last-child{width:55%}@keyframes demo-pulse{to{background-position:-200% 0}}
+.demo-not-found{min-height:100vh;display:grid;place-content:center;gap:1rem;padding:2rem;text-align:center;background:#111;color:#fff}.demo-not-found__eyebrow{margin:0;color:var(--lime);font-weight:900;letter-spacing:.18em}.demo-not-found h1,.demo-not-found p{margin:0}.demo-not-found a{justify-self:center;margin-top:.5rem;padding:.8rem 1.2rem;border-radius:999px;background:var(--lime);color:#111;font-weight:800;text-decoration:none}
