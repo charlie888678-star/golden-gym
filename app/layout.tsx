@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Golden Gym — Fitness & Gym Management",
-  description: "A complete gym experience for owners, trainers and members.",
+  title: "Gym Website Template",
+  description: "A reusable, business-ready gym and fitness website experience.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

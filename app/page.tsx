@@ -1,3 +1,6 @@
 import { PublicSite } from "@/components/public/public-site";
-import { getMembers, getMemberships, getTrainers } from "@/services";
-export default async function Home(){return <PublicSite plans={await getMemberships()} trainers={await getTrainers()} members={await getMembers()}/>}
+import { previewDemo } from "@/lib/demo-data";
+
+export default function Home() {
+  return <PublicSite demo={previewDemo} />;
+}
